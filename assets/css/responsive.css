@@ -1,0 +1,234 @@
+@media (max-width: 1200px) {
+    label[for="icon"] {
+        width: 60px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        position: relative;
+        z-index: 4;
+
+    }
+
+    label[for="icon"]>span {
+        width: 100%;
+        background-color: rgba(255, 0, 0, 0.651);
+        height: 5px;
+        border-radius: 2px;
+
+    }
+
+    .mobile-view {
+        background-color: white;
+        width: 100%;
+        padding: 30%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        z-index: 2;
+        transition: all 300ms linear;
+    }
+
+    input[type="checkbox"]:checked+ul {
+        right: 0;
+        gap: 4px;
+    }
+
+    .phillip {
+        font-size: 12px;
+    }
+
+    .ceo {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1275px) {
+    .btnprev {
+        position: absolute;
+        top: 86%;
+        left: 50%;
+
+    }
+
+    .btnnxt {
+        position: absolute;
+        top: 86%;
+        left: 40%;
+    }
+}
+
+@media (max-width:992px) {
+    .mainheading {
+        font-size: 40px;
+    }
+
+    .item-lg-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .item-lg-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .item-lg-3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .item-lg-4 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .item-lg-5 {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .item-lg-6 {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    .item-lg-7 {
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+
+    .item-lg-8 {
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+
+    .item-lg-9 {
+        grid-column: 1/2;
+        grid-row: 9/10;
+    }
+
+    .overflow-y-scroll {
+        overflow-x: scroll;
+    }
+
+    .border-none {
+        border: none;
+    }
+
+    .white-font {
+        font-size: 9px;
+    }
+
+    .btnprev {
+        position: absolute;
+        top: 86%;
+        left: 52%;
+
+    }
+
+    .btnnxt {
+        position: absolute;
+        top: 86%;
+        left: 40%;
+    }
+}
+
+@media (max-width:768px) {
+    .mainheading {
+        font-size: 35px;
+    }
+
+    .cardpara {
+        font-size: 12px;
+    }
+
+    .lets {
+        font-size: 30px;
+    }
+
+    .box-4 {
+        width: 90%;
+    }
+
+    .card1 {
+        text-align: center;
+    }
+
+    .btnprev {
+        position: absolute;
+        top: 86%;
+        left: 52%;
+
+    }
+
+    .btnnxt {
+        position: absolute;
+        top: 86%;
+        left: 40%;
+    }
+
+}
+
+@media (max-width:576px) {
+    .btnprev {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+
+    }
+
+    .btnnxt {
+        position: absolute;
+        top: 90%;
+        left: 40%;
+    }
+
+    .email {
+        font-size: 10px;
+    }
+
+    .subscribe-btn {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:430px) {
+    .email {
+        font-size: 7px;
+    }
+
+    .subscribe-btn {
+        font-size: 7px;
+    }
+
+    .btnprev {
+        position: absolute;
+        top: 89%;
+        left: 50%;
+    }
+
+    .btnnxt {
+        position: absolute;
+        top: 89%;
+        left: 34%;
+    }
+
+}
+
+@media (max-width:350px) {
+    .phillip {
+        font-size: 11px;
+    }
+
+    .ceo {
+        font-size: 8px;
+    }
+}
